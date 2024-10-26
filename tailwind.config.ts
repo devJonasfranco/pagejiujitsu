@@ -8,10 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      screens: {
+				"2xl": "1440px",
+			},
+			minHeight: {
+				"custom-3665": "3665px",
+			},
     },
   },
   plugins: [],
